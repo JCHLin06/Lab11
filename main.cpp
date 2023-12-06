@@ -2,6 +2,7 @@
 //
 
 #include "LinkedList.h"
+#include <iostream>
 
 
 void FreeNodeList(Node * n)
@@ -22,7 +23,7 @@ void FreeNodeList(Node * n)
 // This code is just sandbox code
 int main()
 {
-
+	std::cout << "Hello World\n";
 	Node * head = nullptr;
 
 	Node * cur = nullptr;
